@@ -10,14 +10,15 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="Musicamobile"
-            width={480}
-            height={207}
+            width={320}
+            height={139}
+            className="md:w-[528px] md:h-[228px]"
             priority
           />
         </div>
         <a 
           href="mailto:info@musicamobile.com.br" 
-          className="text-[28px] md:text-[36px] font-extrabold no-underline transition-colors"
+          className="text-[20px] md:text-[36px] font-extrabold no-underline transition-colors"
           style={{ 
             fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", Roboto, sans-serif', 
             textDecoration: 'none',
