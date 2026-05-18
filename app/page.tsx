@@ -1,4 +1,4 @@
-a 'use client';
+'use client';
 
 import Image from "next/image";
 
@@ -12,13 +12,13 @@ export default function Home() {
             alt="Musicamobile"
             width={320}
             height={139}
-            className="md:w-[600px] md:h-[259px]"
+            className="md:w-[700px] md:h-[302px]"
             priority
           />
         </div>
         <a 
           href="mailto:info@musicamobile.com.br" 
-          className="text-[20px] md:text-[36px] font-extrabold no-underline transition-colors"
+          className="text-[20px] md:text-[44px] font-extrabold no-underline transition-colors"
           style={{ 
             fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", Roboto, sans-serif', 
             textDecoration: 'none',
