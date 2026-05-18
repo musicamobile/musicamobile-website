@@ -12,7 +12,7 @@ export default function Home() {
             alt="Musicamobile"
             width={320}
             height={138}
-            className="md:w-[1200px] md:h-[518px]"
+            className="md:w-[1440px] md:h-[622px]"
             priority
           />
         </div>
