@@ -1,4 +1,4 @@
-'use client';
+a 'use client';
 
 import Image from "next/image";
 
@@ -12,7 +12,7 @@ export default function Home() {
             alt="Musicamobile"
             width={320}
             height={139}
-            className="md:w-[528px] md:h-[228px]"
+            className="md:w-[600px] md:h-[259px]"
             priority
           />
         </div>
