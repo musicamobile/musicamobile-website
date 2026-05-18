@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center p-8 bg-white">
       <div className="text-center">
-        <div className="mb-[128px]">
+        <div className="mb-[128px] w-full max-w-[1200px]">
           <Image
             src="/logo.png"
             alt="Musicamobile"
-            width={350}
-            height={151}
-            className="md:w-[1200px] md:h-[518px]"
+            width={1200}
+            height={518}
+            className="w-full h-auto"
             priority
           />
         </div>
