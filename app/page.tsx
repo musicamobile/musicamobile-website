@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center p-8 bg-white">
       <div className="text-center">
-        <div className="mb-[128px] w-full max-w-[1200px]">
+        <div className="mb-[128px] w-full max-w-[315px] md:max-w-[1200px]">
           <Image
             src="/logo.png"
             alt="Musicamobile"
