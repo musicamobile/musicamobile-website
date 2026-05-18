@@ -6,18 +6,19 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center p-8 bg-white">
       <div className="text-center">
-        <div className="mb-[128px] relative w-full max-w-[320px] md:max-w-[700px] h-[139px] md:h-[302px]">
+        <div className="mb-[128px]">
           <Image
             src="/logo.png"
             alt="Musicamobile"
-            fill
-            className="object-contain"
+            width={320}
+            height={139}
+            className="md:w-[750px] md:h-[324px]"
             priority
           />
         </div>
         <a 
           href="mailto:info@musicamobile.com.br" 
-          className="text-[20px] md:text-[44px] font-extrabold no-underline transition-colors"
+          className="text-[20px] md:text-[48px] font-extrabold no-underline transition-colors"
           style={{ 
             fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", Roboto, sans-serif', 
             textDecoration: 'none',
