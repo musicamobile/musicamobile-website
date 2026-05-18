@@ -10,8 +10,8 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="Musicamobile"
-            width={224}
-            height={97}
+            width={202}
+            height={87}
             className="md:w-[1340px] md:h-[579px]"
             priority
           />
